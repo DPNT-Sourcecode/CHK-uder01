@@ -45,4 +45,3 @@ class CheckoutSolution:
         total += counts.get("E", 0) * prices["E"]
 
         return total
-
