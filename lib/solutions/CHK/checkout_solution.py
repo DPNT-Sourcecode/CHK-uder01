@@ -101,6 +101,7 @@ class CheckoutSolution:
         total += counts.get("G", 0) * prices["G"]
         total += counts.get("I", 0) * prices["I"]
         total += counts.get("J", 0) * prices["J"]
+        total += counts.get("L", 0) * prices["L"]   
         total += payable_m * prices["M"]
         total += counts.get("N", 0) * prices["N"]
         total += counts.get("O", 0) * prices["O"]
